@@ -138,6 +138,7 @@ export default {
   },
   mounted () {
     this.bus.$on('search_succes', () => {
+      this.currenPage = 0
       this.showData()
     })
     this.getData(this.$route.query.catgory)
