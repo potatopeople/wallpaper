@@ -17,7 +17,7 @@
 ![这里随便写文字](https://github.com/potatopeople/wallpaper/blob/master/static/images/%E5%88%86%E9%A1%B5.PNG)
 ### 图片简介：鼠标悬停显示
 ![这里随便写文字](https://github.com/potatopeople/wallpaper/blob/master/static/images/%E5%9B%BE%E7%89%87%E7%AE%80%E4%BB%8B.png)
-### 搜索：点击搜索按钮，按图片简介搜索
+### 搜索：点击搜索按钮，按图片简介搜索，如果搜索输入为空，则默认搜索全部
 ![这里随便写文字](https://github.com/potatopeople/wallpaper/blob/master/static/images/%E6%90%9C%E7%B4%A2%E5%9B%BE%E7%89%87.PNG)
 ### 幻灯片：点击一个图片就会出现
 ![这里随便写文字](https://github.com/potatopeople/wallpaper/blob/master/static/images/%E5%B9%BB%E7%81%AF%E7%89%87.PNG)
