@@ -4,7 +4,7 @@
 ## 一些辅助功能：分页、按图片简介搜索、幻灯片、放大
 
 ### 主页：
-![my](https://github.com/potatopeople/wallpaper/blob/master/static/images/%E4%B8%BB%E9%A1%B5.PNG "我是悬停内容")
+![这里随便写文字](https://github.com/potatopeople/wallpaper/blob/master/static/images/%E4%B8%BB%E9%A1%B5.PNG)
 ### 游戏分类：
 
 ### 动漫分类：
