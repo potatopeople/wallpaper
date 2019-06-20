@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <img id="imgs" src="http://img.netbian.com/file/2019/0615/small06fbce0eca7151faceefda797cecc1bd1560586183.jpg">
+    <button onclick="javascript:down('img')">
+      下载
+    </button>
+    <button onclick="search()">搜索</button>
+</body>
+<script>
+    let data = [
+        {name: '土豆1'},
+        {name: '土豆2'},
+        {name: '土豆3'},
+        {name: '土豆4'},
+        {name: '土豆5'},
+        {name: '土豆6'},
+        {name: '土豆7'},
+        {name: '土豆8'},
+        {name: '土豆9'},
+    ]
+    function search() {
+        let name = '1'
+        let rex = new RegExp(name)
+        data.forEach(item => {
+          console.log(rex.test(item.name),
+          rex.exec(item.name))
+        })
+    }
+function down(name) {
+    try{
+        var a = document.createElement('a')
+        var event = new MouseEvent('clcik')
+        a.download = name || '图片.png'
+        a.href = document.getElementById('imgs').src
+        //a.click();
+        a.dispatchEvent(event)
+        console.log(a.href);
+    } catch (error) {
+        console.log(error)
+    }
+    
+    
+}
+</script>
+</html>
